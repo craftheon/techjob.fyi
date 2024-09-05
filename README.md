@@ -1,1 +1,2 @@
-# shopify-app-development-101
+# startup
+Fast create a new project based on this template.
