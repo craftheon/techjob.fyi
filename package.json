@@ -1,0 +1,15 @@
+{
+  "name": "basestone",
+  "version": "1.0.0",
+  "description": "Basestone is a toolkit that includes past technological accumulations for quickly starting new projects.",
+  "main": "generate.ts",
+  "scripts": {
+    "start": "bun generate.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bun": "^1.1.27"
+  }
+}
