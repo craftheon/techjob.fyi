@@ -1,6 +1,9 @@
-# nextjs-web-starter
+# Basestone
+
+Your all in one knowledge management tool.
 
 ## Tech stack
+
 - Next.js
 - Tailwind CSS + Shadcn/UI
 - TypeScript
@@ -13,6 +16,7 @@
   - Redis
 
 ## Features
+
 - Authentication
 - Authorization
 - Database
@@ -20,4 +24,3 @@
 - Queue
 - Email
 - File Storage
-
