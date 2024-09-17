@@ -1,15 +1,40 @@
 {
-  "name": "basestone",
-  "version": "1.0.0",
-  "description": "Basestone is a toolkit that includes past technological accumulations for quickly starting new projects.",
-  "main": "generate.ts",
+  "name": "nextjs-web-starter",
+  "private": true,
   "scripts": {
-    "start": "bun generate.ts"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "shadcn": "shadcn-ui add",
+    "e2e": "playwright",
+    "db:sync": "prisma generate"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.19.1",
+    "@radix-ui/react-icons": "^1.3.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.440.0",
+    "next": "^14.2.10",
+    "next-pwa": "^5.6.0",
+    "prisma": "^5.19.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^2.5.2",
+    "tailwindcss-animate": "^1.0.7"
+  },
   "devDependencies": {
-    "bun": "^1.1.27"
+    "@playwright/test": "^1.47.0",
+    "@types/node": "^22.5.4",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.10.0",
+    "eslint-config-next": "^14.2.10",
+    "postcss": "^8.4.45",
+    "shadcn-ui": "latest",
+    "tailwindcss": "^3.4.11",
+    "typescript": "^5.6.2"
   }
 }

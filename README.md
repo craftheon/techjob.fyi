@@ -1,9 +1,23 @@
-# basestone
+# nextjs-web-starter
 
-Basestone is a toolkit that includes past technological accumulations for quickly starting new projects.
+## Tech stack
+- Next.js
+- Tailwind CSS + Shadcn/UI
+- TypeScript
+- Supabase (Auth)
+- Vercel
+- (Optionally)
+  - Trpc
+  - Prisma
+  - PostgreSQL
+  - Redis
 
-## Getting Started
-```
-npm install
-npm start
-```
+## Features
+- Authentication
+- Authorization
+- Database
+- Cache
+- Queue
+- Email
+- File Storage
+
